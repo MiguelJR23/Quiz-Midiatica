@@ -9,64 +9,106 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'PHP foi desenvolvido para qual fim?',
+    question: 'A Rede Social Twitter tem foco em quê?',
     answers: [
       {
-        answer: 'Back-End',
+        answer: 'Posts interações e comentários',
         correct: true,
       },
       {
-        answer: 'Front-End',
+        answer: 'Apenas posts',
         correct: false,
       },
       {
-        answer: 'Sistema operacional',
+        answer: 'Networking',
         correct: false,
       },
       {
-        answer: 'Banco de dados',
+        answer: 'Entretenimento',
         correct: false,
       },
     ],
   },
   {
-    question: 'Uma forma de declarar variável em JavaScript:',
+    question: 'Qual ferramenta foi implementada após a compra de Elon Musk? ',
     answers: [
       {
-        answer: '$var',
+        answer: 'Chat',
         correct: false,
       },
       {
-        answer: 'var',
+        answer: 'Ligação de vídeo',
+        correct: false,
+      },
+      {
+        answer: 'Inteligência artificial',
+        correct: false,
+      },
+      {
+        answer: 'Ligação de vídeo e I.A.',
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: 'Em qual ano a rede social Twitter foi fundada?',
+    answers: [
+      {
+        answer: '2000',
+        correct: false,
+      },
+      {
+        answer: '2005',
+        correct: false,
+      },
+      {
+        answer: '2006',
         correct: true,
       },
       {
-        answer: '@var',
-        correct: false,
-      },
-      {
-        answer: '#let',
+        answer: '2010',
         correct: false,
       },
     ],
   },
   {
-    question: 'Qual o seletor de id no CSS?',
+    question: 'No segundo post citado no vídeo, qual forma de violência foi utilizada?',
     answers: [
       {
-        answer: '#',
+        answer: 'Violência moral',
         correct: true,
       },
       {
-        answer: '.',
+        answer: 'Violência física',
         correct: false,
       },
       {
-        answer: '@',
+        answer: 'Injúria racial',
         correct: false,
       },
       {
-        answer: '/',
+        answer: 'Violência patrimonial',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'Qual das seguintes práticas são fundamentais para a promoção de paz nas redes sociais?',
+    answers: [
+      {
+        answer: 'Se atentar a comentários que possam ofender e se ocultar',
+        correct: false,
+      },
+      {
+        answer: 'Se atentar a comentários que possam ofender, não praticá-los e denunciar com recursos disponíveis na plataforma de forma não agressiva',
+        correct: true,
+      },
+      {
+        answer: 'Utilizar meios como memes para fins de bullying e difamação',
+        correct: false,
+      },
+      {
+        answer: 'Apenas observar',
         correct: false,
       },
     ],
